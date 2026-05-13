@@ -76,6 +76,14 @@ export const PRODUCTS: Product[] = [
     category: 'فاخر'
   },
   {
+    id: 'p8',
+    name: 'حلو لوز مخلط (باكو)',
+    description: 'تشكيلة فاخرة ومنوعة من أرقى حلويات اللوز التقليدية (ملبس، كعك عنبر، فاكية)، مثالية للهدايا والمناسبات.',
+    price: 55.00,
+    imageUrl: PlaceHolderImages.find(img => img.id === 'mlabes')?.imageUrl || '',
+    category: 'فاخر'
+  },
+  {
     id: 'p6',
     name: 'ڨراوش',
     description: 'حلويات تقليدية مقرمشة، معسلة ومزينة بالجلجلان، تتميز بمذاقها التونسي الأصيل.',
